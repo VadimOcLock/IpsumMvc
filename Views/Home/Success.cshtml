@@ -1,0 +1,10 @@
+﻿@model Ipsum.Models.EmailViewModel
+@{
+	ViewBag.Title = "Success";
+}
+
+@if(Model.Email == null)
+{
+	<p>NULLLL</p>
+}
+@Model.Email
